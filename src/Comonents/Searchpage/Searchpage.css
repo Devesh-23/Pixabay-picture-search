@@ -1,0 +1,81 @@
+.Textfield{
+    background-color: black;
+    color: white;
+    padding-top: 20;
+    padding-left: 70;
+    font-size: 30;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+
+.rooot {
+  z-index: +1;
+  position: absolute;
+  justify-content: center;
+  left: 38%;
+  right: 50%;
+  top: 43%;
+  bottom: 50%;
+}
+
+.imagebox {
+    display:  flex;
+    height: 300;
+    width: 500;
+    background-color: red;
+    margin-top: 300;
+}
+
+.input {
+    font-size: 1.2rem;
+    padding: 0.5rem 2rem;
+    line-height: 2.8rem;
+    border-radius: 10px;
+    background-color: white;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+   
+  }
+  
+  .button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+    padding: 1rem 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 250ms;
+    margin-left: 74%;
+  }
+
+  .button:hover {
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+
+  .picgrid {
+    column-count: 3;
+  }
+
+  .card {
+    margin-bottom: 1rem;
+    display: flex;
+}
+
+.card--image {
+    flex: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+
+.card--image {
+    flex: 100%;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
+

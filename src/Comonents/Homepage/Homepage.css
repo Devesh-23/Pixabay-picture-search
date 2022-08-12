@@ -1,0 +1,32 @@
+.firstblock{
+    border: 2px;
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.Text{
+    position: absolute;
+    z-index: +1;
+    color:white;
+    top: 35%;
+    left: 19%;
+    right: 15%;
+}
+
+.Text2{
+    position: absolute;
+    z-index: +1;
+    color:white;
+    top:74%;
+    right: 15%;
+    left: 20%;
+    
+}
