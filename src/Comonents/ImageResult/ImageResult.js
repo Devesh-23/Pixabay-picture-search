@@ -40,7 +40,9 @@ function ImageResult() {
               <ModalImage
                 small={item.webformatURL}
                 large={item.webformatURL}
-                alt="Image Loading"
+                hideDownload={true}
+                hideZoom={true}
+                alt=""
               />
               {/* <img src={`${item.previewURL}`} alt={item.user} loading="lazy" /> */}
             </ImageListItem>
