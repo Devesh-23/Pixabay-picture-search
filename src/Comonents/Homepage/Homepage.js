@@ -2,6 +2,8 @@ import React from "react";
 import Searchpage from "../Searchpage/Searchpage";
 import "./Homepage.css";
 
+//adding all the features to the home page
+
 function Homepage() {
   return (
     <div>
